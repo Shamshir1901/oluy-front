@@ -1,9 +1,18 @@
 <template>
-    <h1>hello world</h1>
+    <HeaderRow/>
+    <MainRow/>
 </template>
 
 
 <script>
+import {defineComponent} from "vue";
+
+import HeaderRow from "@/components/HeaderRow.vue";
+import MainRow from "@/components/MainRow.vue";
+
+export default defineComponent({
+    components: {MainRow, HeaderRow, }
+})
 </script>
 
 
