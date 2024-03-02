@@ -16,9 +16,9 @@
             <img src="/public/icons/forsale.png" alt="sale-photo" style="width: 500px">
         </div>
         <div class="container" style="display: flex; margin-top: 7%">
-            <h2 style="color: #00066E; margin-left: 100px">
+            <h1 style="color: #00066E; margin-left: 100px">
                 Izlash
-            </h2>
+            </h1>
         </div>
         <div class="container" style="width: 80%; height: 200px; background-color: #5582FF; border-radius: 17px">
             <div class="container" style="margin-bottom: 15px">
@@ -87,6 +87,129 @@
                             width: 200px; height: 38px; font-weight: bold; border: none;
                             " >Izlash</button>
                 </a>
+            </div>
+        </div>
+        <div class="container" style="width: 80%; height: 200px; margin-top: 120px; padding-bottom: 360px">
+            <div class="container" style="text-align: center; color: #00066E; margin-bottom: 3%">
+                <h1>
+                    Sotuvdagi kvartiralar
+                </h1>
+            </div>
+            <div class="container" style="width: 100%; display: flex; justify-items: auto">
+                <div class="container" style="display: flex; flex-wrap: wrap; gap: 20px; position:absolute;">
+                    <div class="item" style="position:relative; flex: 0 0 auto; width: calc(25% - 15px);">
+                        <img src="/public/icons/1.jpeg" alt="image1" style="width: 225px; height: 225px; border-radius: 17px">
+                        <div class="#" style="position:relative; bottom: 0; left: 0; margin: 5px;
+                             background-color: #5582FF; color: #ffffff; width: 88px; border-radius: 17px;
+                             text-align: center">55000 y.e</div>
+                    </div>
+                    <div class="item" style="position:relative; flex: 0 0 auto; width: calc(25% - 15px);">
+                        <img src="/public/icons/2.jpeg" alt="image1" style="width: 225px; height: 225px; border-radius: 17px">
+                        <div class="#" style="position:relative; bottom: 0; left: 0; margin: 5px;
+                             background-color: #5582FF; color: #ffffff; width: 88px; border-radius: 17px;
+                             text-align: center">75000 y.e</div>
+                    </div>
+                    <div class="item" style="position:relative; flex: 0 0 auto; width: calc(25% - 15px);">
+                        <img src="/public/icons/3.jpeg" alt="image1" style="width: 225px; height: 225px; border-radius: 17px">
+                        <div class="#" style="position:relative; bottom: 0; left: 0; margin: 5px;
+                             background-color: #5582FF; color: #ffffff; width: 88px; border-radius: 17px;
+                             text-align: center">45000 y.e</div>
+                    </div>
+                    <div class="item" style="position:relative; flex: 0 0 auto; width: calc(25% - 15px);">
+                        <img src="/public/icons/4.jpeg" alt="image1" style="width: 225px; height: 225px; border-radius: 17px">
+                        <div class="#" style="position:relative; bottom: 0; left: 0; margin: 5px;
+                             background-color: #5582FF; color: #ffffff; width: 88px; border-radius: 17px;
+                             text-align: center">43000 y.e</div>
+                    </div>
+                    <div class="button" style="margin-top: 1%; align-self: flex-end">
+                        <a>
+                            <button style="color: #ffffff; background-color: #5582FF; border-radius: 17px;
+                            width: 200px; height: 38px; font-weight: bold; border: none;" >Barchasi</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="width: 80%; height: 200px; margin-top: 120px">
+            <div class="container" style="text-align: center; color: #00066E; margin-bottom: 3%">
+                <h1>
+                    Sotuvdagi hovli joylar
+                </h1>
+            </div>
+            <div class="container" style="width: 100%; display: flex; justify-items: auto">
+                <div class="container" style="display: flex; flex-wrap: wrap; gap: 20px; position:absolute;">
+                    <div class="item" style="position:relative; flex: 0 0 auto; width: calc(25% - 15px);">
+                        <img src="/public/icons/5.jpeg" alt="image1" style="width: 225px; height: 225px; border-radius: 17px">
+                        <div class="#" style="position:relative; bottom: 0; left: 0; margin: 5px;
+                             background-color: #5582FF; color: #ffffff; width: 88px; border-radius: 17px;
+                             text-align: center">155000 y.e</div>
+                    </div>
+                    <div class="item" style="position:relative; flex: 0 0 auto; width: calc(25% - 15px);">
+                        <img src="/public/icons/6.jpeg" alt="image1" style="width: 225px; height: 225px; border-radius: 17px">
+                        <div class="#" style="position:relative; bottom: 0; left: 0; margin: 5px;
+                             background-color: #5582FF; color: #ffffff; width: 88px; border-radius: 17px;
+                             text-align: center">173000 y.e</div>
+                    </div>
+                    <div class="item" style="position:relative; flex: 0 0 auto; width: calc(25% - 15px);">
+                        <img src="/public/icons/7.jpeg" alt="image1" style="width: 225px; height: 225px; border-radius: 17px">
+                        <div class="#" style="position:relative; bottom: 0; left: 0; margin: 5px;
+                             background-color: #5582FF; color: #ffffff; width: 88px; border-radius: 17px;
+                             text-align: center">125000 y.e</div>
+                    </div>
+                    <div class="item" style="position:relative; flex: 0 0 auto; width: calc(25% - 15px);">
+                        <img src="/public/icons/8.jpeg" alt="image1" style="width: 225px; height: 225px; border-radius: 17px">
+                        <div class="#" style="position:relative; bottom: 0; left: 0; margin: 5px;
+                             background-color: #5582FF; color: #ffffff; width: 88px; border-radius: 17px;
+                             text-align: center">93000 y.e</div>
+                    </div>
+                    <div class="button" style="margin-top: 1%; align-self: flex-end">
+                        <a>
+                            <button style="color: #ffffff; background-color: #5582FF; border-radius: 17px;
+                            width: 200px; height: 38px; font-weight: bold; border: none;" >Barchasi</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="width: 80%; height: 200px; margin-top: 120px; padding-top: 120px">
+            <div class="container" style="text-align: center; color: #00066E; margin-bottom: 3%">
+                <h1>
+                    Ijaraga kvartira va hovli joylar
+                </h1>
+            </div>
+            <div class="container" style="width: 100%; display: flex; justify-items: auto">
+                <div class="container" style="display: flex; flex-wrap: wrap; gap: 20px; position:absolute;">
+                    <div class="item" style="position:relative; flex: 0 0 auto; width: calc(25% - 15px);">
+                        <img src="/public/icons/9.jpeg" alt="image1" style="width: 225px; height: 225px; border-radius: 17px">
+                        <div class="#" style="position:relative; bottom: 0; left: 0; margin: 5px;
+                             background-color: #5582FF; color: #ffffff; width: 97px; border-radius: 17px;
+                             text-align: center">1000 y.e/oy</div>
+                    </div>
+                    <div class="item" style="position:relative; flex: 0 0 auto; width: calc(25% - 15px);">
+                        <img src="/public/icons/10.jpeg" alt="image1" style="width: 225px; height: 225px; border-radius: 17px">
+                        <div class="#" style="position:relative; bottom: 0; left: 0; margin: 5px;
+                             background-color: #5582FF; color: #ffffff; width: 88px; border-radius: 17px;
+                             text-align: center">800 y.e/oy</div>
+                    </div>
+                    <div class="item" style="position:relative; flex: 0 0 auto; width: calc(25% - 15px);">
+                        <img src="/public/icons/11.jpeg" alt="image1" style="width: 225px; height: 225px; border-radius: 17px">
+                        <div class="#" style="position:relative; bottom: 0; left: 0; margin: 5px;
+                             background-color: #5582FF; color: #ffffff; width: 97px; border-radius: 17px;
+                             text-align: center">1200 y.e/oy</div>
+                    </div>
+                    <div class="item" style="position:relative; flex: 0 0 auto; width: calc(25% - 15px);">
+                        <img src="/public/icons/12.jpeg" alt="image1" style="width: 225px; height: 225px; border-radius: 17px">
+                        <div class="#" style="position:relative; bottom: 0; left: 0; margin: 5px;
+                             background-color: #5582FF; color: #ffffff; width: 88px; border-radius: 17px;
+                             text-align: center">930 y.e/oy</div>
+                    </div>
+                    <div class="button" style="margin-top: 1%; align-self: flex-end">
+                        <a>
+                            <button style="color: #ffffff; background-color: #5582FF; border-radius: 17px;
+                            width: 200px; height: 38px; font-weight: bold; border: none;" >Barchasi</button>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
