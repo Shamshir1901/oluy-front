@@ -9,9 +9,9 @@
                     Onlayn e'lon qo'yib o'z uyingizni ishonchli soting,
                     va o'zingiz uchun yangi uy sotib oling.<br> E'lon joylashtirish mutlaqo bepul!
                 </p>
-                <a><button href="#" class="button" style="color: #ffffff; border-radius: 17px;
+                <router-link to="/elonber"><button class="button" style="color: #ffffff; border-radius: 17px;
                 background-color: #5582FF; font-weight: bold; width: 144px; height: 30px; border: none"
-                >E'lon berish +</button></a>
+                >E'lon berish +</button></router-link>
             </div>
             <img src="/public/icons/forsale.png" alt="sale-photo" style="width: 500px">
         </div>
@@ -171,7 +171,7 @@
                 </div>
             </div>
         </div>
-        <div class="container" style="width: 80%; height: 200px; margin-top: 120px; padding-top: 120px">
+        <div class="container" style="width: 80%; height: 200px; margin-top: 180px; padding-top: 120px">
             <div class="container" style="text-align: center; color: #00066E; margin-bottom: 3%">
                 <h1>
                     Ijaraga kvartira va hovli joylar
@@ -204,6 +204,47 @@
                              text-align: center">930 y.e/oy</div>
                     </div>
                     <div class="button" style="margin-top: 1%; align-self: flex-end">
+                        <a>
+                            <button style="color: #ffffff; background-color: #5582FF; border-radius: 17px;
+                            width: 200px; height: 38px; font-weight: bold; border: none;" >Barchasi</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="width: 80%; height: 200px; margin-top: 280px; padding-top: 120px">
+            <div class="container" style="text-align: center; color: #00066E; margin-bottom: 3%">
+                <h1>
+                    Sotuvdagi yangi kvartiralar
+                </h1>
+            </div>
+            <div class="container" style="width: 100%; display: flex; justify-items: auto">
+                <div class="container" style="display: flex; flex-wrap: wrap; gap: 20px; position:absolute;">
+                    <div class="item" style="position:relative; flex: 0 0 auto; width: calc(25% - 15px);">
+                        <img src="/public/icons/13.jpeg" alt="image1" style="width: 225px; height: 225px; border-radius: 17px">
+                        <div class="#" style="position:relative; bottom: 0; left: 0; margin: 5px;
+                             background-color: #5582FF; color: #ffffff; width: 117px; border-radius: 17px;
+                             text-align: center">85000 y.e dan</div>
+                    </div>
+                    <div class="item" style="position:relative; flex: 0 0 auto; width: calc(25% - 15px);">
+                        <img src="/public/icons/14.jpeg" alt="image1" style="width: 225px; height: 225px; border-radius: 17px">
+                        <div class="#" style="position:relative; bottom: 0; left: 0; margin: 5px;
+                             background-color: #5582FF; color: #ffffff; width: 117px; border-radius: 17px;
+                             text-align: center">60000 y.e dan</div>
+                    </div>
+                    <div class="item" style="position:relative; flex: 0 0 auto; width: calc(25% - 15px);">
+                        <img src="/public/icons/15.jpeg" alt="image1" style="width: 225px; height: 225px; border-radius: 17px">
+                        <div class="#" style="position:relative; bottom: 0; left: 0; margin: 5px;
+                             background-color: #5582FF; color: #ffffff; width: 117px; border-radius: 17px;
+                             text-align: center">70000 y.e dan</div>
+                    </div>
+                    <div class="item" style="position:relative; flex: 0 0 auto; width: calc(25% - 15px);">
+                        <img src="/public/icons/16.jpeg" alt="image1" style="width: 225px; height: 225px; border-radius: 17px">
+                        <div class="#" style="position:relative; bottom: 0; left: 0; margin: 5px;
+                             background-color: #5582FF; color: #ffffff; width: 117px; border-radius: 17px;
+                             text-align: center">93000 y.e dan</div>
+                    </div>
+                    <div class="button" style="margin-top: 1%; align-self: flex-end;">
                         <a>
                             <button style="color: #ffffff; background-color: #5582FF; border-radius: 17px;
                             width: 200px; height: 38px; font-weight: bold; border: none;" >Barchasi</button>

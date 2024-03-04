@@ -8,8 +8,8 @@
 
                         <nav class="me-5">
                             <ul style="list-style-type: none; margin-right: 80px; padding: 0; display: flex">
-                                <li style="margin-right: 20px"><a href="#" style="color: #ffffff; text-decoration: underline">
-                                    Bosh sahifa</a></li>
+                                <li style="margin-right: 20px"><router-link to="/" style="color: #ffffff; text-decoration: underline">
+                                    Bosh sahifa</router-link></li>
                                 <li style="margin-right: 20px"><a href="#" style="color: #ffffff; text-decoration: none">
                                     Sotuv</a></li>
                                 <li style="margin-right: 20px"><a href="#" style="color: #ffffff; text-decoration: none">
@@ -18,9 +18,9 @@
                                     Yangi uylar</a></li>
                                 <li style="margin-right: 20px"><a href="#" style="color: #ffffff; text-decoration: none">
                                     Yana</a></li>
-                                <li><button href="#" class="button" style="color: #ffffff; border-radius: 17px;
-                                             background-color: #5582FF; border: none; width: 144px"
-                                            >E'lon berish +</button></li>
+                                <li><router-link to="/elonber"><button class="button" style="color: #ffffff; border-radius: 17px;
+                                             background-color: #5582FF; border: none; width: 134px"
+                                >E'lon berish +</button></router-link></li>
                             </ul>
                         </nav>
                     </div>
