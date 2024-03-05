@@ -70,10 +70,12 @@
                     <div class="col" id="row3">
                         <h3 class="h3" id="white">Kvartira sotiladi</h3>
                         <h6 id="white">Toshkent shahri, Yakkasaroy tumani, Bobur</h6>
-                        <p id="white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        </p>
+                        <div class="row" id="rowp">
+                            <p id="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
                         <div class="row">
                             <h3 id="white">78000 y.e <button id="button">Batafsil</button></h3>
                         </div>
@@ -156,6 +158,9 @@ export default {
     margin-top: 1%;
     width: 90%;
 }
+#rowp {
+    width: 80%;
+}
 #col1 {
     width: 90%;
     justify-content: start;
@@ -174,8 +179,7 @@ export default {
     padding-left: 10%;
     padding-right: 7%;
 }
-.pagination {
-}
+
 #row1 {
     width: 90%;
     height: 400px;
@@ -197,6 +201,7 @@ export default {
     justify-content: start;
     display: block;
     color: white;
+    padding-left: 2%;
 }
 #button {
     color: #5582FF;

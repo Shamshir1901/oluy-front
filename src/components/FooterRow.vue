@@ -8,37 +8,19 @@
                         <h4 style="margin-left: auto; padding-right: 6%">Bog'lanishlar</h4>
                     </div>
                 </div>
-                <div class="container-fluid" style="flex-wrap: wrap;">
-                    <div class="container" style="padding-top: 2%; justify-content: center; display: flex; flex-wrap: wrap;
-                         font-weight: 500; padding-left: 4.5%">
-                        <div class="container" style=" font-weight: 500; padding-bottom: 3px">
-                            <a href="#" style="color: #ffffff; padding-left: 1px; text-decoration: none">Ro'yxatdan o'tish</a>
-                        </div>
-                        <div class="container" style=" font-weight: 500; padding-bottom: 3px">
-                            <a href="#" style="color: #ffffff; padding-left: 1px; text-decoration: none">Biz haqimizda</a>
-                        </div>
-                        <div class="container" style=" font-weight: 500; padding-bottom: 3px">
-                            <a href="#" style="color: #ffffff; padding-left: 1px; text-decoration: none">Yordam</a>
-                        </div>
-                        <div class="container" style=" font-weight: 500; padding-bottom: 3px">
-                            <a href="#" style="color: #ffffff; padding-left: 1px; text-decoration: none">Foydalanish shartlari</a>
-                        </div>
-                        <div class="container" style=" font-weight: 500; padding-bottom: 3px">
-                            <a href="#" style="color: #ffffff; padding-left: 1px; text-decoration: none">Foydalanuvchilar huquqlari</a>
-                        </div>
-                        <div class="container" style=" font-weight: 500; padding-bottom: 3px">
-                            <a href="#" style="color: #ffffff; padding-left: 1px; text-decoration: none">E'lon berish</a>
-                        </div>
-                        <div class="container" style=" font-weight: 500; padding-bottom: 3px">
-                            <a href="#" style="color: #ffffff; padding-left: 1px; text-decoration: none">Blog</a>
-                        </div>
-                        <div class="container" style=" font-weight: 500; padding-bottom: 3px">
-                            <a href="#" style="color: #ffffff; padding-left: 1px; text-decoration: none">Ma'lumot markazi</a>
-                        </div>
-                    </div>
+                <div class="m-auto" style="width: 78%;">
+                    <a href="#" style="display: flex; color: white; text-decoration: none">Biz haqimizda</a>
+                    <a href="#" style="display: flex; color: white; text-decoration: none">Yordam</a>
+                    <a href="#" style="display: flex; color: white; text-decoration: none">Foydalanish shartlari</a>
+                    <a href="#" style="display: flex; color: white; text-decoration: none">Foydalanuvchilar huquqlari</a>
+                    <router-link to="/elonber" style="display: flex; color: white; text-decoration: none">E'lon berish</router-link>
+                    <a href="#" style="display: flex; color: white; text-decoration: none">Blog</a>
+                    <a href="#" style="display: flex; color: white; text-decoration: none">Ma'lumot markazi</a>
+
                 </div>
-                <hr style="border: 2px solid white; margin-top: 3%">
-                <div class="container" style="display: flex; justify-content: start; padding-left: 5%; margin-top: 3%;
+
+                <hr style="border: 2px solid white; margin-top: 2%">
+                <div class="container" style="display: flex; justify-content: start; padding-left: 5%; margin-top: 2%;
                       width: 80%">
                     <div class="container" style="width: 15%; margin-bottom: 1%">
                         <img src="/public/icons/framefinal.png" alt="framelogo" style="width: 265px; height: 83px">
@@ -50,7 +32,6 @@
                             huquqlari himoyalangan</p>
                     </div>
                 </div>
-
             </footer>
             <div class="container-fluid" style="width: 100%; height: 40px; position: absolute;
                  background-color: #00066E">
