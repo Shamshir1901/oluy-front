@@ -1,37 +1,7 @@
 <template>
-            <footer class="container-fluid" style="margin-top: 25%; width: 100%;
-                       background-color: #5582FF; position: relative">
-                <div class="card-title" style="color: #ffffff; display: flex; justify-content: center; padding-top: 3%">
-                    <h4 style="margin-right: auto; padding-left: 12%">Hududlar</h4>
-                    <h4 style="text-align: center">Noturar joylar </h4>
-                    <h4 style="margin-left: auto; padding-right: 10%">Qurilish firmalari</h4>
-                </div>
-                <div class="container" style="padding-top: 2%; display: block; justify-content: center;
-                     font-weight: 500; padding-left: 5.5%">
-                    <div class="container" style=" font-weight: 500"> >
-                        <a href="#" style="color: #ffffff; padding-left: 1px; text-decoration: none">Toshkent Sh.</a>
-                    </div>
-                    <div class="container" style=" font-weight: 500"> >
-                        <a href="#" style="color: #ffffff; padding-left: 1px; text-decoration: none">Toshkent Vil.</a>
-                    </div>
-                    <div class="container" style=" font-weight: 500"> >
-                        <a href="#" style="color: #ffffff; padding-left: 1px; text-decoration: none">Andijon</a>
-                    </div>
-                    <div class="container" style=" font-weight: 500"> >
-                        <a href="#" style="color: #ffffff; padding-left: 1px; text-decoration: none">Farg'ona</a>
-                    </div>
-                    <div class="container" style=" font-weight: 500"> >
-                        <a href="#" style="color: #ffffff; padding-left: 1px; text-decoration: none">Namangan</a>
-                    </div>
-                    <div class="container" style=" font-weight: 500"> >
-                        <a href="#" style="color: #ffffff; padding-left: 1px; text-decoration: none">Sirdaryo</a>
-                    </div>
-                    <div class="container" style=" font-weight: 500"> >
-                        <a href="#" style="color: #ffffff; padding-left: 1px; text-decoration: none">Samarqand</a>
-                    </div>
-                </div>
-                <hr style="border: 2px solid white; margin-top: 3%">
-                <div class="m-auto">
+            <footer class="container-fluid" style=" width: 100%;
+                       background-color: #5582FF;">
+                <div class="container-fluid">
                     <div class="container" style="color: white; display: flex; justify-content: center; padding-top: 2%">
                         <h4 style="margin-right: auto; padding-left: 5%">Foydalanuvchilarga</h4>
                         <h4 style="text-align: center">Rieltorlarga</h4>

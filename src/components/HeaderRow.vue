@@ -10,8 +10,8 @@
                             <ul style="list-style-type: none; margin-right: 80px; padding: 0; display: flex">
                                 <li style="margin-right: 20px"><router-link to="/" style="color: #ffffff; text-decoration: underline">
                                     Bosh sahifa</router-link></li>
-                                <li style="margin-right: 20px"><a href="#" style="color: #ffffff; text-decoration: none">
-                                    Sotuv</a></li>
+                                <li style="margin-right: 20px"><router-link to="/sotuv" style="color: #ffffff; text-decoration: none">
+                                    Sotuv</router-link></li>
                                 <li style="margin-right: 20px"><a href="#" style="color: #ffffff; text-decoration: none">
                                     Ijara</a></li>
                                 <li style="margin-right: 20px"><a href="#" style="color: #ffffff; text-decoration: none">

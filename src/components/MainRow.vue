@@ -20,7 +20,7 @@
                 Izlash
             </h1>
         </div>
-        <div class="container" style="width: 80%; height: 200px; background-color: #5582FF; border-radius: 17px">
+        <div class="container" style="width: 80%; height: 220px; background-color: #5582FF; border-radius: 17px">
             <div class="container" style="margin-bottom: 15px">
                 <ul style="list-style-type: none; margin: auto; padding-top: 20px; display: flex; font-size: 20px">
                     <li style="margin-right: 20px"><a href="#"><button style="color: #ffffff; text-decoration: none;
@@ -212,7 +212,7 @@
                 </div>
             </div>
         </div>
-        <div class="container" style="width: 80%; height: 200px; margin-top: 280px; padding-top: 120px">
+        <div class="container" style="width: 80%; margin-top: 280px; padding-top: 120px; padding-bottom: 30%">
             <div class="container" style="text-align: center; color: #00066E; margin-bottom: 3%">
                 <h1>
                     Sotuvdagi yangi kvartiralar

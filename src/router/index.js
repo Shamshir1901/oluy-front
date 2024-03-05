@@ -12,6 +12,10 @@ const router = createRouter({
     {
       path: '/elonber',
       component: () => import('../pages/ElonBer.vue')
+    },
+    {
+      path: '/sotuv',
+      component: () => import('../pages/SotuvPage.vue')
     }
   ]
 })

@@ -1,5 +1,5 @@
 <template>
-    <div class="container" style="margin-top: 5%">
+    <div class="container" style="margin-top: 5%; margin-bottom: 10%">
         <div>
             <h2 style="color: #00066E">E'lon berish</h2>
             <h5 style="margin-top: 4%; margin-bottom: 7%">Ma'lumotlar</h5>
