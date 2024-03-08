@@ -10,12 +10,12 @@
                             <ul style="list-style-type: none; margin-right: 80px; padding: 0; display: flex">
                                 <li style="margin-right: 20px"><router-link to="/" style="color: #ffffff; text-decoration: underline">
                                     Bosh sahifa</router-link></li>
-                                <li style="margin-right: 20px"><router-link to="/sotuv" style="color: #ffffff; text-decoration: none">
+                                <li style="margin-right: 20px"><router-link to="/Sotuv" style="color: #ffffff; text-decoration: none">
                                     Sotuv</router-link></li>
                                 <li style="margin-right: 20px"><a href="#" style="color: #ffffff; text-decoration: none">
                                     Ijara</a></li>
-                                <li style="margin-right: 20px"><a href="#" style="color: #ffffff; text-decoration: none">
-                                    Yangi uylar</a></li>
+                                <li style="margin-right: 20px"><router-link to="/YangiUylar" style="color: #ffffff; text-decoration: none">
+                                    Yangi uylar</router-link></li>
                                 <li style="margin-right: 20px"><a href="#" style="color: #ffffff; text-decoration: none">
                                     Yana</a></li>
                                 <li><router-link to="/elonber"><button class="button" style="color: #ffffff; border-radius: 17px;
