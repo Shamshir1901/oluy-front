@@ -7,7 +7,9 @@
                   o’zingiz uchun yangi uy sotib oling.
                   E’lon joylashtirish mutlaqo bepul!
               </p>
-              <button class="main-sale__btn">E’lon berish</button>
+              <router-link to="/elonber">
+                  <button class="main-sale__btn">E’lon berish</button>
+              </router-link>
           </div>
           <div class="main-sale__img">
               <img src="/public/icons/forsale.png" alt="forsale">
@@ -196,6 +198,11 @@ export default {
     margin: 100px 0;
     font-family: "Rubik", sans-serif;
 }
+.__container {
+    max-width: 1008px;
+    margin: auto;
+    padding: 0 10px;
+}
 .main-sale {
     color: #00066E;
     display: flex;
@@ -267,6 +274,7 @@ export default {
         color: #FFFFFF;
     }
 }
+
 .search {
     width: 988px;
     margin: 100px auto;
@@ -289,7 +297,6 @@ export default {
     display: flex;
     padding-top: 29px;
 }
-
 .search-ul__link {
     color: #FFFFFF;
     text-decoration: none;
@@ -319,7 +326,6 @@ export default {
     padding-left: 18px;
     border: none;
 }
-
 .search-content__select {
     margin-left: 28px;
     border-radius: 10px;
@@ -350,6 +356,9 @@ export default {
     text-align: center;
     margin-left: 28px;
     border: none;
+}
+.button__izlash:hover {
+    background-color: #b5bbd3;
 }
 @media screen and (max-width: 786px) {
     .search__title h3{
@@ -403,6 +412,7 @@ export default {
         margin: 10px 10px;
     }
 }
+
 .apartment {
     width: 988px;
     margin: 92px auto;
@@ -438,6 +448,9 @@ export default {
     text-align: end;
 
 }
+.apartment-btn__btn:hover {
+    background-color: #0d2d7a;
+}
 .apartment-btn__btn {
     color: #FFFFFF;
     background-color: #5582FF;
@@ -451,7 +464,7 @@ export default {
 }
 @media screen and (max-width: 786px) {
     .apartment {
-        width: 100%;
+        max-width: 100%;
         margin: 92px auto;
 
     }
@@ -459,14 +472,19 @@ export default {
         text-align: center;
         color: #00066E;
     }
+    .apartment__img {
+        flex-direction: row;
+        display: flex;
+    }
     .apartment__img img {
-        margin: 47px 28px 0 0;
+        margin: 47px 20px 0 15px;
         width: 155px;
         height: 155px;
         border-radius: 17px;
     }
     .apartment-img__price {
         background-color: #5582FF;
+        margin-left: 15px;
         width: 54px;
         height: 20px;
         font-size: 8px;
@@ -480,7 +498,7 @@ export default {
     }
     .apartment__btn {
 
-        margin: 38px 10px 0 10px;
+        margin: 38px 10px 30px 10px;
 
     }
     .apartment-btn__btn {

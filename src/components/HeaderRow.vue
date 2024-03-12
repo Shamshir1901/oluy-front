@@ -7,10 +7,10 @@
             <nav class="header__menu">
                 <ul class="header__list">
                     <li class="menu-item menu-item__active">
-                        <a href="#">Bosh sahifa</a>
+                        <router-link to="/">Bosh sahifa</router-link>
                     </li>
                     <li class="menu-item">
-                        <a href="#">Sotuv</a>
+                        <router-link to="/sotuv">Sotuv</router-link>
                     </li>
                     <li class="menu-item">
                         <a href="#">Ijaraga</a>
@@ -22,9 +22,11 @@
                         <a href="#">Yana</a>
                     </li>
                 </ul>
-                <button class="header__btn">
-                    E'lon berish
-                </button>
+                <router-link to="/elonber">
+                    <button class="header__btn">
+                        E'lon berish
+                    </button>
+                </router-link>
             </nav>
         </div>
     </header>
