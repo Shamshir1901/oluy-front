@@ -54,7 +54,6 @@
                         13.2785 7.09002 13.2772 5.38273 11.5699Z" fill="white" stroke="white" stroke-width="0.5"
                               stroke-linecap="round"/>
                     </svg>
-
                 </button>
             </div>
             <hr class="horizontal">
@@ -78,7 +77,6 @@
                         </li>
                     </ul>
                 </nav>
-
             </div>
         </section>
         <section class="main__section2">
@@ -225,7 +223,6 @@
                                 </svg>
                             </button>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -364,7 +361,6 @@
                                 </svg>
                             </button>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -475,7 +471,6 @@
                                 </svg>
                             </button>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -622,7 +617,7 @@
                 </div>
             </div>
         </section>
-        <section class="main__section3">
+        <section class="section__navbar">
             <nav aria-label="Page navigation example">
                 <ul class="pagination justify-content-end">
                     <li class="page-item active"><a class="page-link" href="#">1</a></li>
@@ -649,7 +644,7 @@ export default {
 
 <style>
 .main {
-    max-width: 1008px;
+    max-width: 988px;
     margin: 34px auto auto auto;
     padding: 0 10px;
     font-family: "Rubik", sans-serif;
@@ -669,7 +664,7 @@ export default {
     height: 36px;
 }
 .__sel2 {
-    width: 318px;
+    width: 308px;
 }
 .__sel3 {
     width: 118px;
@@ -697,6 +692,7 @@ export default {
     background-color: #00066E;
 }
 .horizontal {
+    width: 988px;
     margin: 14px 0 24px 0;
     border: 2px solid #00000040
 }

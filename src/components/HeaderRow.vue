@@ -16,7 +16,7 @@
                         <a href="#">Ijaraga</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#">Yangi Uylar</a>
+                        <router-link to="/yangiUylar">Yangi Uylar</router-link>
                     </li>
                     <li class="menu-item">
                         <a href="#">Yana</a>
