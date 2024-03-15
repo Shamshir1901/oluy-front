@@ -106,4 +106,27 @@ export default {
     color: #ffffff;
 }
 
+@media screen and (max-width: 786px) {
+    .__container {
+        width: auto;
+        display: flex;
+        margin: auto;
+        padding: 0 10px;
+    }
+    .header__image img {
+        width: auto;
+        height: 100px;
+    }
+    .header__list {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+    }
+    .menu-item {
+        margin-top: 10px;
+        margin-right: 10px;
+        font-size: 11px;
+    }
+}
+
 </style>
