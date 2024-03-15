@@ -20,6 +20,10 @@ const router = createRouter({
     {
       path: '/yangiUylar',
       component: () => import('../pages/YangiUylar.vue')
+    },
+    {
+      path: "/yordam",
+      component: () => import('../pages/YordamPage.vue')
     }
   ]
 })

@@ -10,7 +10,7 @@
                 </div>
                 <div class="m-auto" style="width: 78%;">
                     <a href="#" style="display: flex; color: white; text-decoration: none">Biz haqimizda</a>
-                    <a href="#" style="display: flex; color: white; text-decoration: none">Yordam</a>
+                    <router-link to="/yordam" style="display: flex; color: white; text-decoration: none">Yordam</router-link>
                     <a href="#" style="display: flex; color: white; text-decoration: none">Foydalanish shartlari</a>
                     <a href="#" style="display: flex; color: white; text-decoration: none">Foydalanuvchilar huquqlari</a>
                     <router-link to="/elonber" style="display: flex; color: white; text-decoration: none">E'lon berish</router-link>
