@@ -2,7 +2,9 @@
     <header class="container-fluid header">
         <div class="header-content __container">
             <div class="header__image">
-                <img src="/public/icons/logooluy.png" alt="oluy">
+                <router-link to="/">
+                    <img src="/public/icons/logooluy.png" alt="oluy">
+                </router-link>
             </div>
             <nav class="header__menu">
                 <ul class="header__list">
