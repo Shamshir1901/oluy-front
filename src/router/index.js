@@ -24,6 +24,10 @@ const router = createRouter({
     {
       path: "/yordam",
       component: () => import('../pages/YordamPage.vue')
+    },
+    {
+      path: "/signUp",
+      component: () => import('../pages/SignUp.vue')
     }
   ]
 })

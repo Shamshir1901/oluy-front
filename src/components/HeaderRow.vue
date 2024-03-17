@@ -21,7 +21,7 @@
                         <router-link to="/yangiUylar">Yangi Uylar</router-link>
                     </li>
                     <li class="menu-item">
-                        <a href="#">Yana</a>
+                        <router-link to="/signUp">Yana</router-link>
                     </li>
                 </ul>
                 <router-link to="/elonber">
